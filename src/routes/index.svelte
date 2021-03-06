@@ -3,9 +3,9 @@
 
   let completedKey: Boolean = false;
 
-  const secretKey: Array<Number> = [
-    84, 72, 65, 78, 75, 83, 220, /* "thanks_" */ 
-    67, 72, 79, 67, 79, 76, 65, 84, 69 /* "chocolate" */
+  const secretKey: Array<String> = [
+    't', 'h', 'a', 'n', 'k', 's', /* "thanks_" */ 
+    'c', 'h', 'o', 'c', 'o', 'l', 'a', 't', 'e' /* "chocolate" */
   ];
   let inputKey: Array<Number> = [];
 
