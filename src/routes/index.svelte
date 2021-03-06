@@ -2,6 +2,7 @@
   import Thanks from "../components/Thanks.svelte";
 
   let completedKey: Boolean = false;
+  let displayedCode: String = "L-{'32({(8)66-o{'\\\"+6{y'3:-0(83,8,/:'6ym";
 
   const secretKey: Array<String> = [
     't', 'h', 'a', 'n', 'k', 's', /* "thanks_" */ 
@@ -33,7 +34,7 @@
 
 <!-- <button on:click={() => completedKey = true}>Press!!</button> -->
 {#if !completedKey}
-  <h1>ahiahi!</h1>
+  <h1>{displayedCode}</h1>
 {:else}
   <Thanks/>
 {/if}
