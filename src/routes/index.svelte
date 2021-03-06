@@ -7,7 +7,7 @@
     't', 'h', 'a', 'n', 'k', 's', /* "thanks_" */ 
     'c', 'h', 'o', 'c', 'o', 'l', 'a', 't', 'e' /* "chocolate" */
   ];
-  let inputKey: Array<Number> = [];
+  let inputKey: Array<String> = [];
 
   function displaySecretPage(event: { key: Number; }) {
     inputKey.push(event.key);
