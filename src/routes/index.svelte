@@ -9,7 +9,7 @@
   ];
   let inputKey: Array<String> = [];
 
-  function displaySecretPage(event: { key: Number; }) {
+  function displaySecretPage(event: KeyboardEvent) {
     inputKey.push(event.key);
     console.log(event.key);
     if (secretKey.toString() === inputKey.toString()) {
