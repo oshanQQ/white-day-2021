@@ -21,7 +21,6 @@
 
 <svelte:window on:keydown={displaySecretPage}/>
 
-<!-- <button on:click={() => completedKey = true}>Press!!</button> -->
 {#if !completedKey}
   <Code/>
 {:else}
