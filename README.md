@@ -4,6 +4,11 @@ The default template for setting up a [Sapper](https://github.com/sveltejs/sappe
 
 
 ## Getting started
+```shell
+git clone git@github.com:o-xian999/white-day-2021.git
+npm install
+npm run dev
+```
 
 
 ### Using `degit`
