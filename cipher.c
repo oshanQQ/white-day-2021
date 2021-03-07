@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-  char cipher[100] = { "THANK YOU FOR VALENTINES CHOCOLATE!" };
+  char cipher[100] = { "URL" };
 
   for (int i = 0; cipher[i] != '\0'; i++) {
     cipher[i] = 'Z' - cipher[i] + 'A';
