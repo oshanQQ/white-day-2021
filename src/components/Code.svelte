@@ -13,4 +13,4 @@
   }
 </style>
 
-<h1>{displayedCode}</h1>>
+<h1>{displayedCode}</h1>
