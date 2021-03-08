@@ -1,5 +1,6 @@
 {
   "name": "white-day-2021",
+  "description": "Web page for white day in 2021",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
